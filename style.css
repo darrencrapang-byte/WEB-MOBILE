@@ -1,0 +1,103 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 25px 45px;
+}
+
+header {
+    border-bottom: 2px solid #8c1515;
+    padding-bottom: 20px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color: #8c1515;
+    font-size: 34px;
+    margin: 10px 0 4px;
+}
+
+.subtitle {
+    color: #666;
+    margin: 0 0 15px;
+}
+
+.nav a {
+    color: #8c1515;
+    text-decoration: none;
+    margin-right: 18px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 750px;
+}
+
+section {
+    margin: 55px 0;
+    padding-left: 15px;
+    border-left: 3px solid #d5a85c;
+}
+
+#about h2 + p {
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: #8c1515;
+    font-size: 25px;
+    margin: 0 0 10px;
+}
+
+h3 {
+    color: #555;
+    margin: 25px 0 8px;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+input {
+    display: block;
+    width: 300px;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #bbb;
+}
+
+button {
+    padding: 8px 18px;
+    background-color: #8c1515;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 50px;
+    color: #888;
+    font-size: 13px;
+}
